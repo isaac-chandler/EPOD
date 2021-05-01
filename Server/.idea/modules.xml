@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EPOD.iml" filepath="$PROJECT_DIR$/EPOD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EPODServer/EPODServer.iml" filepath="$PROJECT_DIR$/EPODServer/EPODServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestDataCreator/TestDataCreator.iml" filepath="$PROJECT_DIR$/TestDataCreator/TestDataCreator.iml" />
+    </modules>
+  </component>
+</project>

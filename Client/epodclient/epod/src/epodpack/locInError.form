@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="epodpack.locInError">
+  <grid id="27dc6" binding="panel4" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="520" height="197"/>
+    </constraints>
+    <properties>
+      <background color="-12566464"/>
+      <minimumSize width="520" height="195"/>
+      <preferredSize width="520" height="195"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="8980b" class="javax.swing.JTextArea" binding="EPODTextArea1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <editable value="false"/>
+          <font name="SansSerif" size="48"/>
+          <foreground color="-3946551"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="EPOD"/>
+        </properties>
+      </component>
+      <component id="2ac08" class="javax.swing.JTextArea" binding="errorTextArea">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <foreground color="-3946551"/>
+          <lineWrap value="true"/>
+          <text value="There was an error with the coordinates that you entered. Please ensure that you correctly followed the instructions provided. Click below to try again."/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="35143" class="javax.swing.JButton" binding="tryAgainButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <foreground color="-3946551"/>
+          <text value="Try Again"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

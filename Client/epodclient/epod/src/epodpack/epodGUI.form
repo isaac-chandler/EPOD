@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="epodpack.epodGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="444" height="205"/>
+    </constraints>
+    <properties>
+      <background color="-12566464"/>
+      <inheritsPopupMenu value="true"/>
+      <maximumSize width="1920" height="1080"/>
+      <minimumSize width="200" height="100"/>
+      <preferredSize width="506" height="168"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="485eb" class="javax.swing.JTextArea" binding="EPODTextArea" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <editable value="false"/>
+          <font name="SansSerif" size="48"/>
+          <foreground color="-3946551"/>
+          <text value="EPOD"/>
+        </properties>
+      </component>
+      <component id="28d99" class="javax.swing.JTextArea" binding="explainArea">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+            <maximum-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <editable value="false"/>
+          <foreground color="-3946551"/>
+          <lineWrap value="true"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="To continue an accurate location is required so that an accurate power outage map can be created and maintained. After clicking get started please select your home location, then copy and paste your latitude and longitude (found at the bottom of the screen after clicking your location) into the boxes provided."/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="f32ce" class="javax.swing.JButton" binding="startBtn">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+            <maximum-size width="1000" height="1000"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <foreground color="-3946551"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Get Started"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

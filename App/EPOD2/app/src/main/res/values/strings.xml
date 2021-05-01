@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EPOD</string>
+    <string name="title_activity_info">infoActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="submit_code_checking">Checking…</string>
+    <string name="submit_code_submit">Submit</string>
+</resources>

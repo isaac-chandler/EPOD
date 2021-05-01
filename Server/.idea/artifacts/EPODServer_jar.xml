@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="EPODServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EPODServer_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EPODServer.jar">
+        <element id="module-output" name="EPODServer" />
+      </element>
+      <element id="library" level="project" name="commons-cli-1.4-javadoc" />
+      <element id="library" level="project" name="mapdb-3.0.7" />
+    </root>
+  </artifact>
+</component>

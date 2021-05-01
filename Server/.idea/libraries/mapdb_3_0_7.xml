@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="mapdb-3.0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/eclipse-collections-10.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/eclipse-collections-api-10.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/guava-28.0-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/kotlin-stdlib-1.2.71.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/lz4-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/mapdb-3.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mapdb/elsa-3.0.0-M5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

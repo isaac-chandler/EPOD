@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="epodpack.locationInput">
+  <grid id="27dc6" binding="panel2" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="22" width="808" height="217"/>
+    </constraints>
+    <properties>
+      <background color="-12566464"/>
+      <minimumSize width="700" height="100"/>
+      <preferredSize width="790" height="220"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="423c1" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="99999" height="9999999"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <foreground color="-3946551"/>
+          <hideActionText value="false"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Submit Location / Update Location"/>
+        </properties>
+      </component>
+      <component id="25a8" class="javax.swing.JTextArea" binding="EPODTextArea1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <editable value="false"/>
+          <font name="SansSerif" size="48"/>
+          <foreground color="-3946551"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="EPOD"/>
+        </properties>
+      </component>
+      <component id="74442" class="javax.swing.JTextField" binding="latIn">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+            <maximum-size width="99999" height="99999"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <foreground color="-3946551"/>
+          <margin top="2" left="5" bottom="2" right="5"/>
+          <text value="Latitude"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="fc0e4" class="javax.swing.JTextArea" binding="theLongitudeAndLatittudeTextArea" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <editable value="false"/>
+          <foreground color="-3946551"/>
+          <lineWrap value="true"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="The Longitude and Latittude can be found at the bottom of the screen after clicking on your location. Be sure to include and negative sign with the numbers."/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="b8873" class="javax.swing.JTextField" binding="longIn">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="3" use-parent-layout="false">
+            <preferred-size width="150" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+          <enabled value="true"/>
+          <foreground color="-3946551"/>
+          <margin top="2" left="5" bottom="2" right="5"/>
+          <text value="Longitude"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
